@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA309C35-FA90-4DC9-8AAB-4AC69EC0C0B0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>495722FBE3AB062A78B02AF7237A93BA30302758</key>
+		<string>https://github.com/mclkyo/CLBasicUtility.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CLBasicUtilityDemo/CLBasicUtilityDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>495722FBE3AB062A78B02AF7237A93BA30302758</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mclkyo/CLBasicUtility.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>495722FBE3AB062A78B02AF7237A93BA30302758</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>495722FBE3AB062A78B02AF7237A93BA30302758</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CLBasicUtility</string>
+		</dict>
+	</array>
+</dict>
+</plist>

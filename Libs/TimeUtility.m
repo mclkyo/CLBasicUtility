@@ -16,4 +16,14 @@
     return [[NSString alloc]initWithFormat:@"%@",[formatter stringFromDate:[NSDate date]]];
 }
 
++(NSString*)Convert:(NSDate *)date Format:(NSString *)format{
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:format];
+    return [[NSString alloc]initWithFormat:@"%@",[formatter stringFromDate:date]];
+    
+}
+
+
+
 @end

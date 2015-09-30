@@ -10,4 +10,6 @@
 
 @interface TimeUtility : NSObject
 +(NSString*)getNow:(NSString*)format;
++(NSString*)Convert:(NSDate*)date Format:(NSString*)format;
+
 @end

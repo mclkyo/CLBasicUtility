@@ -7,9 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DateInfo.h"
 
 @interface TimeUtility : NSObject
+
+/** get NSDate now to the assign format */
 +(NSString*)getNow:(NSString*)format;
+
+/** convert NSDate to the assign format */
 +(NSString*)Convert:(NSDate*)date Format:(NSString*)format;
+
+
+/** convert NSString to NSdate with assign format */
++(NSDate*)ConvertToDate:(NSString*)DateString Format:(NSString*)format;
+
+/** Convert NSDate to year,month,day,hour,minute,second */
++(DateInfo*)ConvertToDateInfo:(NSDate*)date;
+
+
++(NSInteger)GetNSDateDays:(NSDate*)firstDate SecondDate:(NSDate*)secondDate;
+
 
 @end

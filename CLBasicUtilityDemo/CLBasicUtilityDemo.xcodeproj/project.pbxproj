@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03DD2B251BE8ACBA009167B0 /* DateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DD2B241BE8ACBA009167B0 /* DateInfo.m */; };
 		03DFB7CD1BB91AA500570D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DFB7CC1BB91AA500570D39 /* main.m */; };
 		03DFB7D01BB91AA500570D39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DFB7CF1BB91AA500570D39 /* AppDelegate.m */; };
 		03DFB7D31BB91AA600570D39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DFB7D21BB91AA600570D39 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03DD2B231BE8ACBA009167B0 /* DateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateInfo.h; sourceTree = "<group>"; };
+		03DD2B241BE8ACBA009167B0 /* DateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateInfo.m; sourceTree = "<group>"; };
 		03DFB7C71BB91AA500570D39 /* CLBasicUtilityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLBasicUtilityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DFB7CB1BB91AA500570D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03DFB7CC1BB91AA500570D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				03DFB7F21BB91BC800570D39 /* StringUtility.m */,
 				03DFB7F31BB91BC800570D39 /* TimeUtility.h */,
 				03DFB7F41BB91BC800570D39 /* TimeUtility.m */,
+				03DD2B231BE8ACBA009167B0 /* DateInfo.h */,
+				03DD2B241BE8ACBA009167B0 /* DateInfo.m */,
 			);
 			name = Libs;
 			path = ../../Libs;
@@ -241,6 +246,7 @@
 				03DFB7D31BB91AA600570D39 /* ViewController.m in Sources */,
 				03DFB7F61BB91BC800570D39 /* TimeUtility.m in Sources */,
 				03DFB7F51BB91BC800570D39 /* StringUtility.m in Sources */,
+				03DD2B251BE8ACBA009167B0 /* DateInfo.m in Sources */,
 				03DFB7D01BB91AA500570D39 /* AppDelegate.m in Sources */,
 				03DFB7CD1BB91AA500570D39 /* main.m in Sources */,
 			);
@@ -369,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CLBasicUtilityDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -379,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CLBasicUtilityDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -437,6 +445,7 @@
 				03DFB7EC1BB91AA600570D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03DFB7ED1BB91AA600570D39 /* Build configuration list for PBXNativeTarget "CLBasicUtilityDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +454,7 @@
 				03DFB7EF1BB91AA600570D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

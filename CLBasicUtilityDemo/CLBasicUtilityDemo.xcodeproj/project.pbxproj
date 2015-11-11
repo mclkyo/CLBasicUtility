@@ -16,6 +16,7 @@
 		03DFB7E71BB91AA600570D39 /* CLBasicUtilityDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DFB7E61BB91AA600570D39 /* CLBasicUtilityDemoTests.m */; };
 		03DFB7F51BB91BC800570D39 /* StringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DFB7F21BB91BC800570D39 /* StringUtility.m */; };
 		03DFB7F61BB91BC800570D39 /* TimeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DFB7F41BB91BC800570D39 /* TimeUtility.m */; };
+		F869A6091BF374B700ACF0AF /* DateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F869A6081BF374B700ACF0AF /* DateInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		03DFB7F21BB91BC800570D39 /* StringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtility.m; sourceTree = "<group>"; };
 		03DFB7F31BB91BC800570D39 /* TimeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUtility.h; sourceTree = "<group>"; };
 		03DFB7F41BB91BC800570D39 /* TimeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUtility.m; sourceTree = "<group>"; };
+		F869A6071BF374B700ACF0AF /* DateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateInfo.h; sourceTree = "<group>"; };
+		F869A6081BF374B700ACF0AF /* DateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateInfo.m; sourceTree = "<group>"; };
 		F8BB34361BD67D1400213BDC /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +133,8 @@
 		03DFB7F01BB91BC800570D39 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				F869A6071BF374B700ACF0AF /* DateInfo.h */,
+				F869A6081BF374B700ACF0AF /* DateInfo.m */,
 				03DFB7F11BB91BC800570D39 /* StringUtility.h */,
 				03DFB7F21BB91BC800570D39 /* StringUtility.m */,
 				03DFB7F31BB91BC800570D39 /* TimeUtility.h */,
@@ -243,6 +248,7 @@
 				03DFB7D31BB91AA600570D39 /* ViewController.m in Sources */,
 				03DFB7F61BB91BC800570D39 /* TimeUtility.m in Sources */,
 				03DFB7F51BB91BC800570D39 /* StringUtility.m in Sources */,
+				F869A6091BF374B700ACF0AF /* DateInfo.m in Sources */,
 				03DFB7D01BB91AA500570D39 /* AppDelegate.m in Sources */,
 				03DFB7CD1BB91AA500570D39 /* main.m in Sources */,
 			);

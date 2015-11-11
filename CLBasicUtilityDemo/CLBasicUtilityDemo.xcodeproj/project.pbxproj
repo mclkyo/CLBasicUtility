@@ -46,6 +46,7 @@
 		03DFB7F21BB91BC800570D39 /* StringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtility.m; sourceTree = "<group>"; };
 		03DFB7F31BB91BC800570D39 /* TimeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUtility.h; sourceTree = "<group>"; };
 		03DFB7F41BB91BC800570D39 /* TimeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUtility.m; sourceTree = "<group>"; };
+		F8BB34361BD67D1400213BDC /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +134,7 @@
 				03DFB7F21BB91BC800570D39 /* StringUtility.m */,
 				03DFB7F31BB91BC800570D39 /* TimeUtility.h */,
 				03DFB7F41BB91BC800570D39 /* TimeUtility.m */,
+				F8BB34361BD67D1400213BDC /* CommonMacro.h */,
 			);
 			name = Libs;
 			path = ../../Libs;
@@ -437,6 +439,7 @@
 				03DFB7EC1BB91AA600570D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03DFB7ED1BB91AA600570D39 /* Build configuration list for PBXNativeTarget "CLBasicUtilityDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +448,7 @@
 				03DFB7EF1BB91AA600570D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

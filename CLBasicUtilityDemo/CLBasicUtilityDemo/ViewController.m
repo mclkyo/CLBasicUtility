@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CommonMacro.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    @WeakObj(self);
+    
+    [selfWeak getViewLoad];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+
+-(void)getViewLoad{
+    NSLog(@"%@ %@",@"ViewDidload",@"AA");
+
+}
+
+
 
 @end

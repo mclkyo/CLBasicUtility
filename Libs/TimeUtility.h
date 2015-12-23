@@ -24,7 +24,7 @@
 /** Convert NSDate to year,month,day,hour,minute,second */
 +(DateInfo*)ConvertToDateInfo:(NSDate*)date;
 
-
+/** Get numbers of day between two NSDate  */
 +(NSInteger)GetNSDateDays:(NSDate*)firstDate SecondDate:(NSDate*)secondDate;
 
 
